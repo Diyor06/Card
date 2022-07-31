@@ -97,27 +97,3 @@ h5{
      font-size: 11px;
      letter-spacing: 0.5px;
 }
-
-.res{
-     display: none;
-}
-
-@media  screen and (max-width:375px){
-     section{
-          display: none;
-     }
-
-     body{
-          background: #1c1c25;
-          height: 100vh;
-     }
-
-     .res{
-          display: block;
-          color: #fdd;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          text-align: center;
-     }
-}
